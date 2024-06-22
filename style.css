@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+section {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+.part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+nav h1 {
+    font-size: 30px;
+  
+}
+nav h4 {
+    font-size: 18px;
+    font-weight: 100;
+    
+
+}
+nav button {
+    padding: 18px 80px;
+    font-size: 18px;
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: 300;
+    border: 1px solid black;
+}
+nav button:hover{
+    scale: 1;
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+}
+nav h4:hover{
+    
+    cursor: pointer;
+}
+.center {
+    padding: 80px;
+    display: flex;
+    height: 80%;
+    width: 100%;
+}
+.center-part1 {
+
+    height: 100%;
+    width: 40%;
+   
+}
+
+
+.center-part1 h1 {
+    font-size: 40px;
+    line-height: 1.2;
+   
+}
+.center-part1 p {
+   font-size: 20px;
+   width: 65%;
+   margin-top: 50px;
+   margin-bottom: 25px;
+}
+.center-part1 button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 28px 40px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+}
+.center-part2 {
+
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+.center-part2 img {
+    position: absolute;
+    right: 0;
+    height: 100%;
+
+}
+.section1bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 80px;
+}
+.section1bottom img {
+    
+    height: 40px;
+}
+.section2 .services  {
+    
+   
+    padding: 30px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 45px;
+    margin-top: 150px;
+}
+.services h3 {
+    background-color: #9AE975;
+    font-weight: 350;
+    padding: 6px 8px;
+    border-radius: 5px;
+    font-size: 45px;
+}
+.services p {
+    width: 30%;
+    font-size: 15px;
+}
+.container {
+    min-height: 86vh;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 50px;
+    
+}
+.elem {
+    flex-shrink: 0;
+    height: 250px;
+    width: 40%;
+    border: 3px solid black;
+    border-radius: 30px;
+   
+    padding: 50px;
+    box-shadow: 0px 10px 0px black;
+    display: flex;
+    box-shadow: 10px 10px 32px black;
+}
+.elem-part1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.elem-part2 {
+    height: 100%;
+    width: 50%;
+
+}
+.elem-part2 img {
+    height: 100%;
+    
+}
+.elem-part1 h2 {
+    font-size: 30px;
+    font-weight: 300;
+    width: 80%;
+    padding: 0px 3px;
+    border-radius: 9px;
+    background-color: #9AE975;
+}
+.elem-part1 h4 {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 400;
+    gap: 15px;
+}
+.elem-part1 h4:hover{
+    cursor: pointer;
+    scale: 1.2;
+}
+.elem-part1 h4 i {
+    padding: 7px;
+    background-color: black;
+    font-weight: 200;
+    color: white;
+    border-radius: 50%;
+}
+.black {
+    background-color: black;
+}
+.black h2 {
+    font-size: 30px;
+    font-weight: 300;
+    width: 85%;
+    padding: 0px 3px;
+    border-radius: 9px;
+    background-color: #9AE975;
+}
+.black h4 {
+    color: white;
+}
+.black h4 i {
+    padding: 7px;
+    background-color: white;
+    font-weight: 200;
+    color: black;
+    border-radius: 50%;
+}
+
+.elem-part4 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.elem-part5 {
+    height: 100%;
+    width: 50%;
+
+}
+
+.elem-part4 h2 {
+    font-size: 30px;
+    font-weight: 300;
+    width: 80%;
+    padding: 250px 150px;
+    border-radius: 9px;
+    
+}
+.elem-part4 h4 {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 400;
+    gap: 15px;
+}
+.elem-part4 h4 i {
+    padding: 7px;
+    background-color: black;
+    font-weight: 200;
+    color: white;
+    border-radius: 50%;
+}
+.box{
+    height: 45%;
+    background-color: rgb(215, 218, 217);
+    margin-top: 9%;
+    margin-left: 9% ;
+    padding: 0px 0px 0px 50%;
+    width: 1283px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    box-shadow: 10px 10px 32px black;
+}
+.box h2 {
+    display: flex;
+    font-size: 30px;
+    font-weight: 300;
+    width: 80%;
+    padding: 18px;
+    margin-left: -138% ;
+    
+}
+.box p {
+    display: flex;
+    font-size: 20px;
+    width: 50%;
+    padding: 18px;
+    margin-left: -138% ;
+    
+    
+}
+.box button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 18px 40px;
+    margin: 0px 0px 0px -135%;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    
+}
+.box img {
+    display: flex;
+    position: absolute;
+    height: 70%;
+    margin: 0px 0px 0px 185px;
+    margin-top: -250px;
+    mix-blend-mode: multiply;
+}
+.Casestudy  {
+    
+   
+    padding: 30px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 45px;
+    margin-top: 150px;
+}
+.Casestudy h3 {
+    background-color: #9AE975;
+    font-weight: 350;
+    padding: 6px 8px;
+    border-radius: 5px;
+    font-size: 45px;
+}
+.Casestudy p {
+    width: 40%;
+    font-size: 20px;
+}
+.foot-panel2{
+    background-color: black;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1283px;
+    border-radius: 20px;
+    margin: 90px 0px 0px 130px;
+    box-shadow: 10px 10px 32px black;
+}
+
+ul{
+    margin-top: 20px;
+
+}
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+button:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
